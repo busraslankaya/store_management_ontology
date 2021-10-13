@@ -1,0 +1,630 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/büşra/ontologies/2020/11/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/büşra/ontologies/2020/11/untitled-ontology-10">
+    <Prefix name="" IRI="http://www.semanticweb.org/büşra/ontologies/2020/11/untitled-ontology-10"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Accessory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adresses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlackFriday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BottomWear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bottomwear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Branches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cashier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Christmas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cleaner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Daily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discounts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FullTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManCategories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monthly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PartTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Price"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Revenues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectionPersonnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shoes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shopper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecialDays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecialForShopper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stocks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TeachersDay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TopWear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topwear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnderWear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Underwear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ValentinesDay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WomanCategories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WorkingTimes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yearly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shoes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRequiredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTypeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#İsSubClassOf"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Accessory"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#İsSubClassOf"/>
+            <Class IRI="#WomanCategories"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Address"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isRequiredBy"/>
+            <Class IRI="#Contact"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Adresses"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Branches"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#BlackFriday"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isTypeOf"/>
+            <Class IRI="#SpecialDays"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Boss"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Positions"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#BottomWear"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#İsSubClassOf"/>
+            <Class IRI="#ManCategories"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bottomwear"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#İsSubClassOf"/>
+            <Class IRI="#WomanCategories"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Branches"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cashier"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Positions"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Christmas"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isTypeOf"/>
+            <Class IRI="#SpecialDays"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cleaner"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Positions"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Contact"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#Personnel"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Daily"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Revenues"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Discounts"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FullTime"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#İsSubClassOf"/>
+            <Class IRI="#WorkingTimes"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ManCategories"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#Product"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Monthly"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Revenues"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PartTime"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#İsSubClassOf"/>
+            <Class IRI="#WorkingTimes"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Personnel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Persons"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Persons"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PhoneNumber"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isRequiredBy"/>
+            <Class IRI="#Contact"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Positions"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#Personnel"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Price"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_a"/>
+            <Class IRI="#Product"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Product"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Revenues"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#Sales"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Salary"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#Personnel"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sales"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SectionPersonnel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Positions"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Shoes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#İsSubClassOf"/>
+            <Class IRI="#ManCategories"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Shopper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Persons"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SpecialDays"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTypeOf"/>
+            <Class IRI="#Discounts"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SpecialForShopper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTypeOf"/>
+            <Class IRI="#Discounts"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Stocks"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Branches"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TeachersDay"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isTypeOf"/>
+            <Class IRI="#SpecialDays"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TopWear"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#İsSubClassOf"/>
+            <Class IRI="#ManCategories"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Topwear"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#İsSubClassOf"/>
+            <Class IRI="#WomanCategories"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UnderWear"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#İsSubClassOf"/>
+            <Class IRI="#WomanCategories"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Underwear"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#İsSubClassOf"/>
+            <Class IRI="#ManCategories"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ValentinesDay"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isTypeOf"/>
+            <Class IRI="#SpecialDays"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WomanCategories"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#Product"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WorkingTimes"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#Personnel"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Yearly"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Revenues"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#shoes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#İsSubClassOf"/>
+            <Class IRI="#WomanCategories"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Accessory"/>
+        <Class IRI="#WomanCategories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Address"/>
+        <Class IRI="#Contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adresses"/>
+        <Class IRI="#Branches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlackFriday"/>
+        <Class IRI="#SpecialDays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boss"/>
+        <Class IRI="#Positions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BottomWear"/>
+        <Class IRI="#ManCategories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bottomwear"/>
+        <Class IRI="#WomanCategories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cashier"/>
+        <Class IRI="#Positions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Christmas"/>
+        <Class IRI="#SpecialDays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cleaner"/>
+        <Class IRI="#Positions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contact"/>
+        <Class IRI="#Personnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daily"/>
+        <Class IRI="#Revenues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FullTime"/>
+        <Class IRI="#WorkingTimes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManCategories"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monthly"/>
+        <Class IRI="#Revenues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PartTime"/>
+        <Class IRI="#WorkingTimes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnel"/>
+        <Class IRI="#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhoneNumber"/>
+        <Class IRI="#Contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positions"/>
+        <Class IRI="#Personnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Price"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Revenues"/>
+        <Class IRI="#Sales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salary"/>
+        <Class IRI="#Personnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectionPersonnel"/>
+        <Class IRI="#Positions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shoes"/>
+        <Class IRI="#ManCategories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shopper"/>
+        <Class IRI="#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialDays"/>
+        <Class IRI="#Discounts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialForShopper"/>
+        <Class IRI="#Discounts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stocks"/>
+        <Class IRI="#Branches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TeachersDay"/>
+        <Class IRI="#SpecialDays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TopWear"/>
+        <Class IRI="#ManCategories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topwear"/>
+        <Class IRI="#WomanCategories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnderWear"/>
+        <Class IRI="#WomanCategories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Underwear"/>
+        <Class IRI="#ManCategories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ValentinesDay"/>
+        <Class IRI="#SpecialDays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WomanCategories"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WorkingTimes"/>
+        <Class IRI="#Personnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yearly"/>
+        <Class IRI="#Revenues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shoes"/>
+        <Class IRI="#WomanCategories"/>
+    </SubClassOf>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </EquivalentObjectProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
